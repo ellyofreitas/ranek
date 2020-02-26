@@ -1,0 +1,362 @@
+{
+  "transactions": [
+    {
+      "buyerId": "ellyofreitas@gmail.com",
+      "salesmanId": "ellyofreitas@gmail.com",
+      "product": {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "ellyofreitas@gmail.com",
+        "price": "1999",
+        "selled": "false",
+        "description": "Esse é o novo smartphone.",
+        "photos": []
+      },
+      "address": {
+        "city": "Pecém",
+        "state": "CE",
+        "street": "Rua ali perto",
+        "number": "123",
+        "strict": "abc",
+        "zipcode": "62674000"
+      },
+      "id": 1
+    },
+    {
+      "buyerId": "maria@mail.com",
+      "salesmanId": "ellyofreitas@gmail.com",
+      "product": {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "ellyofreitas@gmail.com",
+        "price": "1999",
+        "selled": "false",
+        "description": "Esse é o novo smartphone.",
+        "photos": []
+      },
+      "address": {
+        "city": "Paraipaba",
+        "state": "CE",
+        "street": "Avenida Maria Moreira 163",
+        "number": "45",
+        "strict": "Centro",
+        "zipcode": "62685970"
+      },
+      "id": 2
+    },
+    {
+      "buyerId": "ellyofreitas@mail.com",
+      "salesmanId": "ellyofreitas@gmail.com",
+      "product": {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "ellyofreitas@gmail.com",
+        "price": "1999",
+        "selled": "false",
+        "description": "Esse é o novo smartphone.",
+        "photos": []
+      },
+      "address": {
+        "city": "São Gonçalo do Amarante",
+        "state": "CE",
+        "street": "Rua Evangelista Magalhães ",
+        "number": "103",
+        "strict": "Pecém",
+        "zipcode": "62674000"
+      },
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": "ellyofreitas@gmail.com",
+      "name": "Ellyo Freitas",
+      "email": "ellyofreitas@gmail.com",
+      "password": "123",
+      "zipcode": "62674000",
+      "street": "Rua ali perto",
+      "number": "123",
+      "district": "",
+      "city": "Pecém",
+      "state": "CE",
+      "strict": "abc"
+    },
+    {
+      "id": "ellyofreitas13@gmail.com",
+      "name": "Ellyo Freitas",
+      "email": "ellyofreitas13@gmail.com",
+      "password": "freitas13",
+      "zipcode": "63900-375",
+      "street": "Avenida Plácido Castelo",
+      "number": "2348",
+      "district": "",
+      "city": "Quixadá",
+      "state": "CE",
+      "strict": "Herval"
+    },
+    {
+      "id": "joao@mail.com",
+      "name": "João",
+      "email": "joao@mail.com",
+      "password": "123456",
+      "zipcode": "62674000",
+      "street": "Da lest",
+      "number": "0",
+      "district": "",
+      "city": "São Gonçalo do Amarante",
+      "state": "CE",
+      "strict": "Pecém"
+    },
+    {
+      "id": "maria@mail.com",
+      "name": "Maria",
+      "email": "maria@mail.com",
+      "password": "123456",
+      "zipcode": "62685970",
+      "street": "Avenida Maria Moreira 163",
+      "number": "45",
+      "district": "",
+      "city": "Paraipaba",
+      "state": "CE",
+      "strict": "Centro"
+    },
+    {
+      "id": "ellyofreitas@mail.com",
+      "name": "Ellyo Freitas",
+      "email": "ellyofreitas@mail.com",
+      "password": "123",
+      "zipcode": "62674000",
+      "street": "Rua Evangelista Magalhães ",
+      "number": "103",
+      "district": "",
+      "city": "São Gonçalo do Amarante",
+      "state": "CE",
+      "strict": "Pecém"
+    }
+  ],
+  "products": [
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo notebook.",
+      "photos": []
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "1999",
+      "selled": "false",
+      "description": "Esse é o novo smartphone.",
+      "photos": []
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "ellyofreitas@gmail.com",
+      "price": "2999",
+      "selled": "false",
+      "description": "Esse é o novo tablet.",
+      "photos": []
+    },
+    {
+      "name": "My Product",
+      "price": 200,
+      "description": "My description",
+      "photos": [],
+      "user_id": "ellyofreitas@gmail.com",
+      "id": "QMW84Rn"
+    },
+    {
+      "name": "Tablet",
+      "price": 500,
+      "description": "Esse e o tal do tablet",
+      "photos": [],
+      "user_id": "ellyofreitas@gmail.com",
+      "id": "oCpqAoQ"
+    }
+  ]
+}
