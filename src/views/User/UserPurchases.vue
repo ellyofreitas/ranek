@@ -15,6 +15,7 @@
         </ProductItem>
       </div>
     </template>
+    <PageLoading v-else />
   </section>
 </template>
 
@@ -50,6 +51,7 @@ export default {
     },
   },
   created() {
+    document.title = 'Usuário | Compras';
     if (this.isLogged) {
       this.getPurchases();
     }

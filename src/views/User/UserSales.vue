@@ -22,6 +22,7 @@
         </div>
       </div>
     </template>
+    <PageLoading v-else />
   </section>
 </template>
 
@@ -59,6 +60,7 @@ export default {
     },
   },
   created() {
+    document.title = 'Usuário | Vendas';
     if (this.isLogged) {
       this.getSales();
     }

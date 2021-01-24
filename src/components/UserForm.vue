@@ -70,7 +70,6 @@ export default {
       const zipcode = this.zipcode.replace(/\D/g, '');
       if (zipcode.length === 8) {
         const { data } = await getZipcode(zipcode);
-        console.log(data);
         this.street = data.logradouro;
         this.strict = data.bairro;
         this.state = data.uf;

@@ -68,6 +68,7 @@ export default {
     },
   },
   created() {
+    document.title = 'Usuário | Produtos';
     if (this.isLogged) {
       this.getUserProducts();
     }

@@ -58,6 +58,7 @@ export default {
       try {
         const { data } = await api.get(`/products/${this.id}`);
         this.product = data;
+        document.title = data.name;
       } catch (error) {
         this.product = {
           id: 0,

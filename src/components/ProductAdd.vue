@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="handleSubmit" class="add-product">
+  <form @submit.prevent class="add-product">
     <label for="name">Nome</label>
     <input v-model="product.name" id="name" type="text" />
     <label for="price">Preço (R$)</label>
@@ -9,7 +9,9 @@
     <label for="description">Descrição</label>
     <textarea v-model="product.description" id="description" type="number">
     </textarea>
-    <button type="submit" class="btn">Adicionar Produto</button>
+    <button @click.prevent="handleSubmit" type="submit" class="btn">
+      Adicionar Produto
+    </button>
     <div />
     <ErrorNotify :errors="errors" />
   </form>
@@ -19,16 +21,18 @@
 import { mapState, mapActions } from 'vuex';
 import api from '@/services/api';
 
+const productInitalState = {
+  name: '',
+  price: 0,
+  description: '',
+  selled: 'false',
+};
+
 export default {
   name: 'ProductAdd',
   data() {
     return {
-      product: {
-        name: '',
-        price: 0,
-        description: '',
-        selled: 'false',
-      },
+      product: productInitalState,
       errors: [],
     };
   },
@@ -37,14 +41,22 @@ export default {
   },
   methods: {
     ...mapActions(['getUserProducts']),
-    async handleSubmit() {
+    async handleSubmit(e) {
+      const button = e.currentTarget;
+      button.innerHTML = 'Adicionando...';
+      button.setAttribute('disabled', '');
+
       this.errors = [];
       try {
         await api.post('/products', this.formatProduct());
-        this.getUserProducts();
+        await this.getUserProducts();
       } catch (error) {
         const { data } = error.response;
         this.errors.push(data.validation[0]);
+      } finally {
+        this.product = productInitalState;
+        button.innerHTML = 'Adicionar Produto';
+        button.removeAttribute('disabled', '');
       }
     },
     formatProduct() {
@@ -60,7 +72,6 @@ export default {
       );
 
       data.append('user_id', Number(this.user.id));
-      // data.append('file', files);
       return data;
     },
   },

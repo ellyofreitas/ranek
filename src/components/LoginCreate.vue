@@ -32,7 +32,11 @@ export default {
   },
   methods: {
     ...mapActions(['signUp']),
-    async handleSubmit() {
+    async handleSubmit(e) {
+      const button = e.currentTarget;
+      button.innerHTML = 'Criando Usuário...';
+      button.setAttribute('disabled', '');
+
       this.errors = [];
       try {
         await this.signUp();
@@ -40,6 +44,9 @@ export default {
       } catch (error) {
         const { data } = error.response;
         this.errors.push(data.validation[0]);
+      } finally {
+        button.innerHTML = 'Criar Usuário';
+        button.removeAttribute('disabled', '');
       }
     },
   },

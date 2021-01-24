@@ -7,6 +7,10 @@ Vue.use(VueRouter);
 
 const routes = [
   {
+    path: '*',
+    component: () => import('@/components/PageNotFound.vue'),
+  },
+  {
     path: '/',
     name: 'home',
     component: Home,
